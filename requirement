@@ -1,0 +1,181 @@
+# Project: Handmade Diya E-commerce Website – End-to-End DevOps Implementation
+
+## Project Objective
+
+I want to build a real-world e-commerce website to sell my handmade diyas.
+
+My objective is not only to develop a website but also to implement a complete DevOps lifecycle, starting from application development and ending with a production deployment accessible to real users through my purchased domain.
+
+Act as my Senior Full Stack Developer, DevOps Engineer, Kubernetes Engineer and AWS Architect.
+
+Guide me step by step throughout the project.
+
+## Phase 1: Application Development (Frontend + Backend + Database)
+
+First, develop a complete working e-commerce application based on the following requirements.
+
+### Frontend Requirements
+- Create an attractive, responsive e-commerce website.
+- Display handmade diya products.
+- Product listing page.
+- Product details page.
+- Product name, description, features and price.
+- Product images and image gallery.
+- Shopping cart.
+- Customer-friendly user interface.
+- Admin login page.
+- Admin dashboard.
+
+### Backend Requirements
+- Develop backend REST APIs.
+- Add new products.
+- Update existing products.
+- Delete products.
+- Fetch all products.
+- Fetch individual product details.
+- Admin authentication and authorization.
+- Product image upload.
+- Order management APIs.
+
+### Database Requirements
+- Integrate a database with the backend.
+- Store product information.
+- Store product name, description, features and price.
+- Store product image references.
+- Store customer and order information.
+- Implement proper database relationships.
+
+### Suggested Technology Stack
+- Frontend: React.js
+- Backend: Node.js + Express.js
+- Database: PostgreSQL
+- ORM: Prisma
+
+The complete application must work locally before proceeding to the next phase.
+
+## Phase 2: Git and GitHub
+
+- Create a GitHub repository.
+- Push frontend and backend source code.
+- Implement Git branching strategy.
+- Create feature branches.
+- Implement pull requests.
+- Maintain README and project documentation.
+- Understand version control practically.
+
+## Phase 3: Docker and Kubernetes POC
+
+I already have a Kubernetes cluster available for practice.
+
+- Create Dockerfiles for frontend and backend.
+- Build Docker images.
+- Run containers locally.
+- Configure Docker Compose.
+- Create Kubernetes namespace.
+- Create Deployments and Services.
+- Configure ConfigMaps and Secrets.
+- Configure database connectivity.
+- Configure persistent storage.
+- Configure Ingress.
+- Configure health checks and resource limits.
+- Deploy the application on my existing Kubernetes cluster.
+- Perform real-world Kubernetes troubleshooting.
+
+## Phase 4: Jenkins CI/CD Pipeline
+
+- Install and configure Jenkins.
+- Integrate Jenkins with GitHub.
+- Configure GitHub webhook.
+- Create declarative Jenkinsfile.
+- Automate application build.
+- Run application tests.
+- Build Docker images.
+- Perform vulnerability scanning using Trivy.
+- Push images to a container registry.
+- Automate Kubernetes deployments.
+- Implement deployment verification.
+- Implement rollback strategy.
+
+## Phase 5: AWS EKS Deployment
+
+Move the application from my existing Kubernetes environment to AWS EKS.
+
+- Create AWS VPC.
+- Configure public and private subnets.
+- Configure IAM roles and policies.
+- Create EKS cluster.
+- Configure worker nodes.
+- Configure AWS ECR.
+- Configure RDS PostgreSQL.
+- Configure S3 for product images.
+- Integrate Jenkins with AWS.
+- Deploy application on EKS.
+- Configure networking and security.
+- Configure CloudWatch logging.
+
+Use Terraform for AWS infrastructure provisioning.
+
+## Phase 6: Domain Configuration and TLS/SSL
+
+I have already purchased a domain.
+
+- Configure domain DNS records.
+- Configure AWS Certificate Manager.
+- Validate domain ownership.
+- Configure AWS Application Load Balancer.
+- Configure HTTPS.
+- Redirect HTTP traffic to HTTPS.
+- Point my purchased domain to the application.
+- Verify website accessibility using my domain.
+
+## Phase 7: Production Readiness and Public Launch
+
+- Implement application security.
+- Configure database backups.
+- Configure monitoring using Prometheus and Grafana.
+- Configure centralized logging.
+- Configure alerts.
+- Configure autoscaling.
+- Perform load testing.
+- Implement disaster recovery.
+- Implement deployment rollback.
+- Integrate payment gateway.
+- Test the complete customer purchase journey.
+- Validate the application before public launch.
+
+## Important Instructions
+
+1. Work on one phase at a time.
+2. Do not skip any phase.
+3. Explain the architecture before implementation.
+4. Provide complete code and folder structures.
+5. Explain the purpose of every important configuration.
+6. Provide exact commands and execution instructions.
+7. Explain how to test and validate each implementation.
+8. Explain real-world production scenarios.
+9. Help me troubleshoot errors instead of just giving workarounds.
+10. Follow security best practices.
+11. Maintain documentation throughout the project.
+12. Do not proceed to the next phase until I confirm the current phase is completed.
+
+## DevOps Interview Preparation
+
+For every phase, explain:
+
+- Why are we using this technology?
+- How does it work?
+- How does it integrate with other components?
+- What happens in a real production environment?
+- What common issues can occur?
+- How do DevOps engineers troubleshoot them?
+- What interview questions can be asked about this implementation?
+
+## First Task
+
+Start with Phase 1.
+
+First explain the application architecture, proposed folder structure, database design and implementation steps.
+
+Wait for my confirmation before generating the application code.
+
+Remember that the ultimate goal is to build and operate a real-world e-commerce application, not just complete individual tool tutorials.
