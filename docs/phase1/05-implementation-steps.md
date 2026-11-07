@@ -33,6 +33,7 @@ psql "postgresql://diya_user:diya_pass@localhost:5432/diyashop" -c "SELECT 1;"
 ## 2. Backend Scaffold
 
 ```bash
+sudo apt install npm -y
 mkdir -p backend/src/{config,controllers,middlewares,routes,utils,uploads}
 cd backend
 npm init -y
