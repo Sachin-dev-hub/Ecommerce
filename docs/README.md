@@ -20,6 +20,7 @@ All guidance, architecture, and implementation notes for this project are mainta
 | 5 | [05-implementation-steps.md](phase1/05-implementation-steps.md) | Step-by-step implementation plan, environment setup, validation checklist |
 | 6 | [06-security-best-practices.md](phase1/06-security-best-practices.md) | Security best practices applied from day one |
 | 7 | [07-technology-stack.md](phase1/07-technology-stack.md) | **Every technology we use, and what we use it for** (single reference file) |
+| 8 | [08-backend-setup-on-poc.md](phase1/08-backend-setup-on-poc.md) | Backend environment setup on the user's machine (POC): corrected commands, `.env` file, Postgres check |
 
 ## Later phases
 
